@@ -16,7 +16,7 @@ object packsInternacionales{
 }
 
 object coordinador{
-    var viajes = 0
+    var viajes = viajesRealizados()
     var rol = rolActual()
     var años = 0
     var humor = humorCoordinador()
@@ -26,7 +26,7 @@ object coordinador{
     }
 
     method tipoDeHumor(humor){
-        if (humor == ) {
+        if (self.humorCoordinador()) {
             ("No esta motivado")
         }
         else {
@@ -39,7 +39,12 @@ object coordinador{
     }
 
     method rolCoordinador(rol){
-        [Guia, Asistente Logistico]
+       const roles = [Guia, Asistente Logistico, Acompañante]
     }
+
+}
+
+object Beneficios {
+    var lista = [¨translados privados, AccesoVIP, sEGUROS]
 
 }
