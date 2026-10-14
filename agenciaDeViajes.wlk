@@ -54,8 +54,15 @@ object Beneficios {
         listaDeBeneficios.add(nuevoBeneficio)
     }
 
-    method vigenciaDelBeneficio(){
-        if ()
+    method vigenciaDelBeneficio(vigencia){
+        //
+        const disponible = 
+        if (vigencia == disponible) {
+            ("sigue en disposicion")
+        }
+        else{
+            exception ("Este beneficio caduco")
+        }
     }
 
 }
