@@ -45,6 +45,6 @@ object coordinador{
 }
 
 object Beneficios {
-    var lista = [¨translados privados, AccesoVIP, sEGUROS]
+    var lista = [translados privados, AccesoVIP, Seguros]
 
 }
