@@ -48,9 +48,14 @@ object coordinador{
 object Beneficios {
     var listaDeBeneficios = []
     var costo = 0
+    const vigencia = vigenciaBen()
     
     method agregarBeneficio(nuevoBeneficio){
         listaDeBeneficios.add(nuevoBeneficio)
+    }
+
+    method vigenciaDelBeneficio(){
+        if ()
     }
 
 }
