@@ -16,7 +16,21 @@ object packsInternacionales{
 }
 
 object coordinador{
-    var Viajes = 0
+    var viajes = 0
+    var rolActual = 
+    var a
 
-    
+    method cantidadDeViajes(viajesHechos){
+        viajes += viajesHechos
+    }
+
+    method tipoDeHumor(humor){
+        if (humor == 1) {
+            ("No esta motivado")
+        }
+        else {
+            ("esta motivado")
+        }
+    }
+
 }
