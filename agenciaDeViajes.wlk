@@ -26,6 +26,7 @@ object coordinador{
     }
 
     method tipoDeHumor(humor){
+        //el humor se define en bueno o malo
         if (self.humorCoordinador(humor) == bueno) {
             ("Esta motivado")
         }
