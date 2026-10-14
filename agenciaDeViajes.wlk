@@ -7,9 +7,16 @@ class packs{
 
 object packsNacionales {
     method provinciaAVisitar() = provincia
-    var provincia
+    method listaDeActividades() = actividad
 }
 
 object packsInternacionales{
-    method 
+    method paisAVisitar() = pais
+
+}
+
+object coordinador{
+    var Viajes = 0
+
+    
 }
