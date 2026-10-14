@@ -56,7 +56,7 @@ object Beneficios {
 
     method vigenciaDelBeneficio(vigencia){
         //
-        const disponible = 
+        const disponible = beneficioDisponible()
         if (vigencia == disponible) {
             ("sigue en disposicion")
         }
