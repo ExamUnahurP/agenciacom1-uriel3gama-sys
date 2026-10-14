@@ -45,14 +45,11 @@ object coordinador{
 }
 
 object Beneficios {
-    var lista = ["translados privados", "AccesoVIP", "Seguros"]
+    var listaDeBeneficios = []
     var costo = 0
-    var precio = 0
+    
     method agregarBeneficio(nuevoBeneficio){
-        lista.add(nuevoBeneficio)
+        listaDeBeneficios.add(nuevoBeneficio)
     }
 
-    method precioBeneficio(costo){
-       
-    }
 }
