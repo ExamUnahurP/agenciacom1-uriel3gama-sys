@@ -26,11 +26,11 @@ object coordinador{
     }
 
     method tipoDeHumor(humor){
-        if (self.humorCoordinador()) {
-            ("No esta motivado")
+        if (self.humorCoordinador(humor) == bueno) {
+            ("Esta motivado")
         }
-        else {
-            ("esta motivado")
+        else (malo) {
+            ("No esta motivado")
         }
     }
 
